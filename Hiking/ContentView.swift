@@ -33,21 +33,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct HikeCell: View {
-    
-    let hike: Hike
-    
-    var body: some View {
-        HStack {
-            Image(hike.imageURL)
-                .resizable()
-                .frame(width: 32, height: 32, alignment: .center)
-                .cornerRadius(16)
-                
-            VStack(alignment: .leading) {
-                Text(hike.name)
-                Text(String(format: "%.2f", hike.miles))
-            }
-        }
-    }
-}

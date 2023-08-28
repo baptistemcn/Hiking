@@ -13,6 +13,7 @@
 		F4137D3A2A9D15A90012E5BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4137D392A9D15A90012E5BE /* Preview Assets.xcassets */; };
 		F4137D422A9D163A0012E5BE /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4137D412A9D163A0012E5BE /* Hike.swift */; };
 		F4137D442A9D2D500012E5BE /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4137D432A9D2D500012E5BE /* HikeDetail.swift */; };
+		F4137D462A9D34980012E5BE /* HikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4137D452A9D34980012E5BE /* HikeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F4137D392A9D15A90012E5BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4137D412A9D163A0012E5BE /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		F4137D432A9D2D500012E5BE /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		F4137D452A9D34980012E5BE /* HikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				F4137D402A9D16170012E5BE /* Models */,
 				F4137D322A9D15A90012E5BE /* HikingApp.swift */,
 				F4137D342A9D15A90012E5BE /* ContentView.swift */,
+				F4137D452A9D34980012E5BE /* HikeCell.swift */,
 				F4137D432A9D2D500012E5BE /* HikeDetail.swift */,
 				F4137D362A9D15A90012E5BE /* Assets.xcassets */,
 				F4137D382A9D15A90012E5BE /* Preview Content */,
@@ -155,6 +158,7 @@
 				F4137D352A9D15A90012E5BE /* ContentView.swift in Sources */,
 				F4137D332A9D15A90012E5BE /* HikingApp.swift in Sources */,
 				F4137D442A9D2D500012E5BE /* HikeDetail.swift in Sources */,
+				F4137D462A9D34980012E5BE /* HikeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

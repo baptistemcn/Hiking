@@ -36,5 +36,6 @@ struct HikeDetail: View {
 struct HikeDetail_Previews: PreviewProvider {
     static var previews: some View {
         HikeDetail(hike: Hike(name: "Lorem Ipsum", imageURL: "french-flag", miles: 10.0))
+            .previewLayout(.sizeThatFits)
     }
 }
